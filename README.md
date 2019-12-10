@@ -1,6 +1,6 @@
-# react-native-ico-miscellaneous
+# Miscellaneous Icons for React Native
 
-### Miscellaneous Icons for React Native
+### react-native-ico-miscellaneous
 
 433 Icons
 
@@ -13,15 +13,19 @@ import Icon from 'react-native-ico-miscellaneous';
 // Inside some view component
 render() {
     return (
-        <Fragment>
+        <>
           <Icon name="24-hours" />
           <Icon name="beer" height="40" width="40" />
           <Icon name="banana" color="yellow" />
-        </Fragment>
+        </>
     );
 }
 
 ```
+
+## List of icons
+
+- [List of Miscellaneous Icons](static/miscellaneous.md)
 
 ## Installation
 
@@ -63,13 +67,9 @@ width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
 
-## List of icons
-
-- [List of Miscellaneous Icons](static/miscellaneous.md)
-
 ## Icons Made by
 
-[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
+[Freepik](https://www.flaticon.com/authors/freepik)
 
 ## Created by
 
