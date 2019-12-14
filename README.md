@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Miscellaneous Icons](static/miscellaneous.md)
+- [List of Miscellaneous Icons](http://ico.simpleness.org/pack/miscellaneous)
 
 ## Installation
 
