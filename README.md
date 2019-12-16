@@ -1,8 +1,8 @@
-# miscellaneous Icons for React Native
+# Miscellaneous Icons for React Native
 
 ### react-native-ico-miscellaneous
 
-369 Icons
+433 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of miscellaneous Icons](http://ico.simpleness.org/pack/miscellaneous)
+- [List of Miscellaneous Icons](http://ico.simpleness.org/pack/miscellaneous)
 
 ## Installation
 
