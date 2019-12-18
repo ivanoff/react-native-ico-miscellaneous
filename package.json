@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-miscellaneous",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "Miscellaneous Icons for React Native",
   "main": "src/index.js",
   "dependencies": {

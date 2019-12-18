@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-miscellaneous';
 render() {
     return (
         <>
-          <Icon name="004-right-arrow" />
-          <Icon name="005-diagonal-arrow" height="40" width="40" />
-          <Icon name="006-diagonal-arrow-1" color="red" />
+          <Icon name="right-arrow" />
+          <Icon name="diagonal-arrow" height="40" width="40" />
+          <Icon name="diagonal-arrow-1" color="red" />
         </>
     );
 }
@@ -61,7 +61,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "004-right-arrow"
+name | no |  | name of file | "right-arrow"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
