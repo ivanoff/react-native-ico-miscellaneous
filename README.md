@@ -2,7 +2,13 @@
 
 ### react-native-ico-miscellaneous
 
-433 Icons
+369 Vector Icons for React Native
+
+<img src="./static/right-arrow.png" alt="right-arrow" width="150" height="150"> <img src="./static/diagonal-arrow.png" alt="diagonal-arrow" width="150" height="150"> <img src="./static/diagonal-arrow-1.png" alt="diagonal-arrow-1" width="150" height="150">
+
+## List of icons
+
+- [List of Miscellaneous Icons](http://ico.simpleness.org/pack/miscellaneous)
 
 ## Usage
 
@@ -22,10 +28,6 @@ render() {
 }
 
 ```
-
-## List of icons
-
-- [List of Miscellaneous Icons](http://ico.simpleness.org/pack/miscellaneous)
 
 ## Installation
 
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "right-arrow"
+name | no |  | name of icon | "right-arrow"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
