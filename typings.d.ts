@@ -1,5 +1,6 @@
 declare module 'react-native-ico-miscellaneous' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = 'down-arrow' |
       'up-arrow' |
@@ -466,7 +467,7 @@ declare module 'react-native-ico-miscellaneous' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
