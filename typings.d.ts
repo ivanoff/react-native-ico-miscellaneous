@@ -436,7 +436,11 @@ declare module 'react-native-ico-miscellaneous' {
       'motorcycle' |
       'bicycle';
 
+    type iconColors = ;
+
     type backgroundType = 'circle' | 'rect' | 'button';
+
+    type colorsType = Record<iconColors, string>;
 
     type positionType = 'top' | 'bottom' | 'right' | 'left' |
       'top_right' | 'top_left' | 'bottom_right' | 'bottom_left';
@@ -453,6 +457,7 @@ declare module 'react-native-ico-miscellaneous' {
       fontSize?: string;
       position?: positionType;
       color?: string;
+      colors: colorsType;
       backgroundColor?: string;
       radius?: number;
     };
@@ -462,6 +467,7 @@ declare module 'react-native-ico-miscellaneous' {
       width?: number;
       height?: number;
       color?: string;
+      colors: colorsType;
       stroke?: number;
       background?: backgroundType | backgroundTypeObj;
       badge?: number | string | badgeTypeObj;
